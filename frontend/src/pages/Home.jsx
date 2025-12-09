@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { fetchChannelStats, fetchLatestVideos } from "../utils/youtubeAPI";
+import { fetchChannelStats, fetchLatestVideos } from "../utils/YoutubeAPI.js";
 import StatsBox from "../components/StatsBox";
 import VideoCard from "../components/VideoCard";
 import { Helmet } from "react-helmet-async";
